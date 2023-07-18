@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Video.js CR Delimited VTT</title>
+</head>
+
+<body>
+  <video
+         id="my_video"
+         class="video-js"
+         controls
+         preload="auto"
+         width="640"
+         height="268"
+         poster="https://vjs.zencdn.net/v/oceans.png"
+         data-setup="{}"
+         >
+      <track src="CR.vtt" label="CR Delimited">
+
+    <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+    <source src="https://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+  </video>
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+</body>
+
+</html>
